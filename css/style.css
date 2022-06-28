@@ -225,6 +225,17 @@ input,
   transition-duration: 0.4s;
 }
 
+.slider__item-img:hover,
+.slider__item-img:focus,
+.slider__item-img:active {
+    cursor: pointer;
+    opacity: 0.85;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    transition: 0.5s;
+}
+
 .slider__item-title,
 .slider__item-subtitle {
   position: absolute;
